@@ -31,10 +31,30 @@ To debug Python code with the help of artificial intelligence, you can follow th
 ```
 
 ## ➤ EXAMPLES TESTING
-1. Hello World:
+1. Fix the code, it should print the factorial of the argument:
 
 ```
-print("Bonjour le monde!")
+$ cat factorial.py
+#!/usr/bin/python3
+import sys
+
+def factorial(n):
+    result = 1
+    while n > 1:
+        result *= n
+    return result
+
+f = factorial(int(sys.argv[1]))
+print(f)
+
+$ ./factorial.py 2
+^CTraceback (most recent call last):
+  File "/private/tmp/factorial.py", line 9, in <module>
+    factorial(int(sys.argv[1]))
+  File "/private/tmp/factorial.py", line 5, in factorial
+    while n > 1:
+          ^^^^^
+KeyboardInterrupt
 ```
 
 ## ➤ TUTORIAL
@@ -43,10 +63,10 @@ print("Bonjour le monde!")
 
 ## ➤ LICENSE
 
-Distributed under the MIT License. See [LICENSE]() for more information.
+Distributed under the MIT License. See [LICENSE](https://github.com/Stefani-web/holbertonschool-chatgpt-introduction/blob/main/debugging/LICENSE) for more information.
 
 Copyright (c) 2024 Stephanie CARVALHO
 
-## ➤ [AUTHORS]()
+## ➤ [AUTHORS](https://github.com/Stefani-web/holbertonschool-chatgpt-introduction/blob/main/debugging/AUTHORS)
 
 * [Stephanie Carvalho](https://github.com/Stefani-web)

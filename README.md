@@ -1,7 +1,7 @@
 # <p align="center">Enhancing Code Quality and Efficiency with ChatGPT</p>
 
 <p align="center">
-<img src="https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/medias/2024/4/fa85b3a428f487288f9d767e688abb5432aa826d.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20240506%2Feu-west-3%2Fs3%2Faws4_request&X-Amz-Date=20240506T074631Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=c79c9ec87bc008ffe5aacf1a2d9a82a6213e2563de5b792d9f2d61b5cb3c29ca" alt="Chatgpt"/>
+<img src="https://img.jagranjosh.com/images/2023/February/322023/how-to-use-chatgpt-compressed.jpg" alt="Chatgpt"/>
 </p>
 
 ## ➤ DESCRIPTION

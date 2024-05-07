@@ -25,16 +25,19 @@ def tic_tac_toe():
     player = "X"
     while not check_winner(board):
         print_board(board)
-        row = int(input("Enter row (0, 1, or 2) for player " + player + ": "))
-        col = int(input("Enter column (0, 1, or 2) for player " + player + ": "))
-        if board[row][col] == " ":
-            board[row][col] = player
-            if player == "X":
-                player = "O"
+        try:
+            row = int(input("Enter row (0, 1, or 2) for player " + player + ": "))
+            col = int(input("Enter column (0, 1, or 2) for player " + player + ": "))
+            if board[row][col] == " ":
+                board[row][col] = player
+                if player == "X":
+                    player = "O"
+                else:
+                    player = "X"
             else:
-                player = "X"
-        else:
-            print("That spot is already taken! Try again.")
+                print("That spot is already taken! Try again.")
+        except ValueError:
+            print("Invalid input. Please enter a number.")
 
     print_board(board)
     print("Player " + player + " wins!")
